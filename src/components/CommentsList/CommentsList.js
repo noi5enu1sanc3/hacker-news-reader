@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './CommentsList.module.css';
 import Comment from '../Comment/Comment';
 import Skeleton from '../shared/Skeleton/Skeleton';
@@ -6,6 +5,7 @@ import { useSelector } from 'react-redux';
 
 const CommentsList = ({ story }) => {
   const commentLoadingStatus = useSelector(state => state.story.commentStatus);
+
   const isLoading = commentLoadingStatus === 'loading';
 
   return (

@@ -7,6 +7,7 @@ import { getNewsIds, getItem } from '../../utils/hackerNewsApi';
 import { pickFirstIds } from '../../utils/helpers/pickFirstIds';
 
 const newsAdapter = createEntityAdapter();
+
 const initialState = newsAdapter.getInitialState({
   status: 'idle',
   lastLoaded: null,

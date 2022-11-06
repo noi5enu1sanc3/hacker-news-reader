@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './LoadMoreButton.module.css';
 import { useSelector } from 'react-redux';
 

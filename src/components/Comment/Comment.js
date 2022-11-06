@@ -5,9 +5,9 @@ import styles from './Comment.module.css';
 import { sanitizeAndParseHTML } from '../../utils/helpers/sanitizeAndParseHTML';
 
 const Comment = ({ id }) => {
-  const [areKidsOpen, setAreKidsOpen] = useState(false);
-
   const dispatch = useDispatch();
+
+  const [areKidsOpen, setAreKidsOpen] = useState(false);
 
   const loadComment = useCallback(
     () => dispatch(fetchComment(id)),
@@ -54,6 +54,9 @@ const Comment = ({ id }) => {
                 type='button'
                 onClick={onOpenKidsToggle}
                 className={styles.loadSubcommentsBtn}
+                aria-label={`${
+                  areKidsOpen ? 'Close subcomments' : 'Open Subcomments'
+                }`}
               >{`${areKidsOpen ? '' : '+'}`}</button>
             )}
             {areKidsOpen && (
