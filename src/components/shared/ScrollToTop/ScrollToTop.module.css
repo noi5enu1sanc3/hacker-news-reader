@@ -1,0 +1,47 @@
+.button {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  right: 100px;
+  bottom: 100px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  background-color: #314d60;
+  opacity: 0.4;
+}
+
+.buttonText {
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  font-size: 36px;
+  line-height: 1;
+  vertical-align: top;
+  color: #db7b72;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: #db7b72;
+  transform: scale(110%);
+}
+
+.button:hover .buttonText {
+  color: #384965;
+}
+
+.visuallyHidden {
+  display: none;
+  opacity: 0;
+  transition: all 0.4s ease-in;
+}
+
+@media screen and (max-width: 500px) {
+  .button {
+    right: 40px;
+  }
+}

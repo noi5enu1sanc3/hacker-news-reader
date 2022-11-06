@@ -1,0 +1,23 @@
+.errorContainer {
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 40px;
+  width: 70%;
+  background-color: #db7b72;
+  color: #1f3039;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+}
+
+.errorEmoji {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.errorText {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}

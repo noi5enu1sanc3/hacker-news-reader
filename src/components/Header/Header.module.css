@@ -1,0 +1,21 @@
+.header {
+  box-sizing: border-box;
+  margin: 0;
+  height: 150px;
+  width: 100%;
+  background-image: radial-gradient(#212121 20%, transparent 20%);
+  background-position: 0 0, 50px 50px;
+  background-size: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+  color: #d3dbda;
+  letter-spacing: 5px;
+}

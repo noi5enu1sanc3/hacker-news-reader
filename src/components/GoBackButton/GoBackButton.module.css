@@ -1,0 +1,19 @@
+.backBtn {
+  border: none;
+  min-width: 300px;
+  height: 70px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #384965;
+  background-color: transparent;
+  color: #db7b72;
+  transition: all 0.4s ease-in-out;
+}
+
+.backBtn:hover {
+  transform: scale(1.01);
+  background-color: #384965;
+}

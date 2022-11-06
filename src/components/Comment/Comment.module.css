@@ -1,0 +1,82 @@
+.block {
+  background-color: #e5eeed;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  list-style: none;
+  text-decoration: none;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  color: #232d32;
+}
+
+.info {
+  color: #556b79;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #556b79;
+  padding-bottom: 10px;
+}
+
+.author {
+  color: #232d32;
+}
+
+.textContainer {
+  margin: 0;
+  font-size: 16px;
+}
+
+.textContainer a {
+  word-break: break-all;
+}
+
+.repliesCount {
+  color: #556b79;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.repliesCountHasReplies {
+  color: #db7b72;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.loadSubcommentsBtn {
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height: 30px;
+  background-color: #556b79;
+  color: #db7b72;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.loadSubcommentsBtn:hover {
+  color: #556b79;
+  background-color: #db7b72;
+}
+
+@media screen and (max-width: 700px) {
+  .block {
+    padding: 20px 10px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .textContainer {
+    font-size: 14px;
+  }
+}

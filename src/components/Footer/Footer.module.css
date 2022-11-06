@@ -1,0 +1,35 @@
+.footer {
+  margin-top: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+}
+
+.creditsContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.creditsText {
+  color: #d3dbda;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
+}
+
+.link {
+  color: #d3dbda;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.link:hover {
+  opacity: 0.8;
+}

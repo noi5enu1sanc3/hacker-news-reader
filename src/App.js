@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import Header from './components/Header/Header';
+import News from './components/News/News';
+import Story from './components/StoryPage/StoryPage';
 import './App.css';
+import ScrollToTop from './components/shared/ScrollToTop/ScrollToTop';
+import PageNotFound from './components/PageNotFound/PageNotFound';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Header />
+      <Switch>
+        <Route exact path='/'>
+          <News />
+        </Route>
+        <Route path='/news/:id'>
+          <Story />
+        </Route>
+        <Route path='*'>
+          <PageNotFound />
+        </Route>
+      </Switch>
+      <ScrollToTop />
+      <Footer />
     </div>
   );
 }

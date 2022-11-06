@@ -1,0 +1,144 @@
+h2,
+p {
+  margin: 0;
+}
+
+.block {
+  background-color: #d3dbda;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.block:hover {
+  box-shadow: -2px 2px 5px #db7b72;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding: 10px;
+}
+
+.focusDot {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #db7b72;
+}
+
+.link:focus-visible {
+  outline: none;
+}
+
+.link:focus-visible .focusDot {
+  transform: scale(1.7);
+}
+
+.link:visited .focusDot {
+  background-color: #556973;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr minmax(auto-fit, 1fr) minmax(auto-fit, 1fr);
+  padding: 10px 25px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #384965;
+  text-align: start;
+  grid-column: 1 / span 3;
+  align-self: end;
+}
+
+.info {
+  color: #556b79;
+}
+
+.attribute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.author {
+  color: #384965;
+}
+
+.source {
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.rating {
+  color: #db7b72;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: start;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.date {
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: start;
+  align-self: end;
+}
+
+.commentsCount {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: end;
+}
+
+.commentsCountHasComments {
+  color: #db7b72;
+}
+
+@media screen and (max-width: 700px) {
+  .article {
+    padding: 5px 15px;
+    row-gap: 10px;
+  }
+  .title {
+    font-size: 18px;
+    align-self: start;
+  }
+  .rating {
+    font-size: 11px;
+    margin-right: 5px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .date {
+    text-align: start;
+  }
+  .attribute {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    align-items: center;
+    justify-content: end;
+  }
+  .commentsCount {
+    grid-column: 3;
+    justify-self: end;
+  }
+  .source {
+    line-height: 1;
+  }
+}

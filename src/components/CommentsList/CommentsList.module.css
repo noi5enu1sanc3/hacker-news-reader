@@ -1,0 +1,15 @@
+.commentsList {
+  margin: 0 0 20px;
+  padding: 0;
+  width: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .commentsList {
+    width: 90%;
+  }
+}

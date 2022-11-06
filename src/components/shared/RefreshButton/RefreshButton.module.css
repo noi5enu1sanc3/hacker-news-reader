@@ -1,0 +1,53 @@
+.button {
+  border: none;
+  min-width: 300px;
+  height: 70px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #db7b72;
+  color: #384965;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:disabled:hover {
+  opacity: 1;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.buttonText {
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.buttonLoading .buttonText {
+  background: linear-gradient(-90deg, #5c78a5, #384965);
+  background-size: 300% 300%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 2s ease infinite;
+}

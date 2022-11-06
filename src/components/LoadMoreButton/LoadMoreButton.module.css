@@ -1,0 +1,31 @@
+.button {
+  border: none;
+  min-width: 300px;
+  height: 70px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #db7b72;
+  color: #384965;
+  transition: all 0.4s ease-in-out;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:disabled:hover {
+  opacity: 1;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.buttonText {
+  font-family: 'Assistant', 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
