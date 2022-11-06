@@ -1,8 +1,8 @@
 import { Route, Switch } from 'react-router-dom';
+import './App.css';
 import Header from './components/Header/Header';
 import News from './components/News/News';
 import Story from './components/StoryPage/StoryPage';
-import './App.css';
 import ScrollToTop from './components/shared/ScrollToTop/ScrollToTop';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';

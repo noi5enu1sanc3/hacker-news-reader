@@ -7,8 +7,7 @@ const options = {
   },
 };
 
-const getResponse = res =>
-  res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`);
+const getResponse = res => (res.ok ? res.json() : Promise.reject(res.status));
 
 const getNewsIds = async () => {
   const response = await fetch(`${baseUrl}newstories.json`, options);

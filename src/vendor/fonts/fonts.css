@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Assistant';
-  src: url(./Assistant/assistant-v18-latin-500.woff);
-  font-weight: 500;
+  src: url(./Assistant/assistant-v18-latin-300.woff);
+  font-weight: 300;
   font-display: swap;
 }
 
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Assistant';
-  src: url(./Assistant/assistant-v18-latin-300.woff);
-  font-weight: 300;
+  src: url(./Assistant/assistant-v18-latin-500.woff);
+  font-weight: 500;
   font-display: swap;
 }
