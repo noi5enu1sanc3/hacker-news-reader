@@ -15,7 +15,7 @@ const Footer = () => {
         </a>
       </div>
       <a
-        href='https://github.com/noi5enu1sanc3'
+        href='https://github.com/noi5enu1sanc3/hacker-news-reader'
         rel='noreferrer'
         target='_blank'
         className={styles.link}

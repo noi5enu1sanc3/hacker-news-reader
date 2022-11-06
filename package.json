@@ -2,7 +2,7 @@
   "name": "test-hacker-news",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://noi5enu1sanc3.github.io/hacker-news-reader",
+  "homepage": "https://noi5enu1sanc3.github.io/hacker-news-reader/#",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
     "@testing-library/jest-dom": "^5.14.1",
