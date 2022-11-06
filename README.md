@@ -2,6 +2,8 @@
 
 Pet-project made to practice Redux/Redux Toolkit
 
+[View project](https://noi5enu1sanc3.github.io/hacker-news-reader)
+
 Stack:
 
 - React
@@ -12,4 +14,28 @@ Stack:
 
 ![~](https://s179vlx.storage.yandex.net/rdisk/5abc830bb5d8071d640ed55cc8a38d86e436982a77708630e838b0669ce2a6e1/63685d66/IKNUP5gqDLMJhSByiS32elZlX2HpGcI9mRYTYEpNrJ6M50xnKem9Z_6xqq-PPwPeRVgksCKmQP96m1OfET84Jg==?uid=0&filename=2022-11-07_00-19-25.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&fsize=277910&hid=3d1f98ad75dac50df8a77d854bd23290&media_type=image&tknv=v2&etag=1ef25e43355d08eb97a9fe35e30b08e1&rtoken=DNPmNv35seQ4&force_default=no&ycrid=na-eeb0426ef2fc7ecce279c0b9fb729813-downloader4e&ts=5ecd73b25a580&s=dc4c325fcb34b5648d0d2545c640d09e06bc085e8d13c67551ec4277704af34c&pb=U2FsdGVkX19qvDW40CEEDkg27mt1y_Rgr1_wvStRTFgebe5oFssgSkl1OqNC4fXWPadY90aLRkb98K1kp4iXRcHoue34vnDsJvv63S8FjSM)
 
-## Available Scripts
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:noi5enu1sanc3/hacker-news-reader.git
+```
+
+Go to the project directory
+
+```bash
+  cd hacker-news-reader
+```
+
+Install dependencies
+
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  yarn start
+```
