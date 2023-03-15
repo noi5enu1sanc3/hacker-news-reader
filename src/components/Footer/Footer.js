@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.creditsContainer}>
-        <p className={styles.creditsText}>Based on</p>
+        <p className={styles.creditsText}>Powered by</p>
         <a
           href='https://github.com/HackerNews/API'
           rel='noreferrer'
