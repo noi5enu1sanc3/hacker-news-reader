@@ -41,6 +41,7 @@
   border-radius: 5px;
   background: linear-gradient(90deg, var(--background-white), var(--raisin-black));
   background-size: 400% 400%;
+  opacity: .3;
   animation: gradient 2s ease infinite;
 }
 
@@ -51,5 +52,6 @@
   border-radius: 5px;
   background: linear-gradient(90deg, var(--background-white), var(--raisin-black));
   background-size: 400% 400%;
+  opacity: .3;
   animation: gradient 2s ease infinite;
 }
