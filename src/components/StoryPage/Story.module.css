@@ -13,8 +13,8 @@
 .storyCard {
   margin-bottom: 20px;
   width: 90%;
-  border-radius: 5px;
-  background-color: #d3dbda;
+  border: 1px solid var(--raisin-black);
+  background-color: var(--background-white);
   padding: 20px;
   box-sizing: border-box;
   transition: all 0.4s ease-in-out;
@@ -53,7 +53,7 @@
 }
 
 .linkToSrc:hover .source {
-  color: #db7b72;
+  color: var(--primary-red);
 }
 
 .text {

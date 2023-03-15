@@ -1,3 +1,5 @@
+@import '../../assets/styles/vars.css';
+
 .backBtn {
   border: none;
   min-width: 300px;
@@ -7,13 +9,12 @@
   font-family: 'Assistant', 'Courier New', Courier, monospace;
   font-size: 20px;
   cursor: pointer;
-  border: 1px solid #384965;
+  border: 1px solid var(--raisin-black);
   background-color: transparent;
-  color: #db7b72;
+  color: var(--raisin-black);
   transition: all 0.4s ease-in-out;
 }
 
 .backBtn:hover {
-  transform: scale(1.01);
-  background-color: #384965;
+  box-shadow: var(--shadow-default);
 }

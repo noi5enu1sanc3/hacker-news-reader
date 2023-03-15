@@ -3,15 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  right: 100px;
+  right: 80px;
   bottom: 100px;
   width: 60px;
   height: 60px;
-  border-radius: 50%;
   border: none;
+  border-radius: 50%;
   transition: all 0.3s ease-in-out;
-  background-color: #314d60;
-  opacity: 0.4;
+  background-color: transparent;
 }
 
 .buttonText {
@@ -19,15 +18,14 @@
   font-size: 36px;
   line-height: 1;
   vertical-align: top;
-  color: #db7b72;
+  color: var(--raisin-black);
   transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
   cursor: pointer;
-  opacity: 0.5;
-  background-color: #db7b72;
-  transform: scale(110%);
+  background-color: var(--primary-red);
+  border: none;
 }
 
 .button:hover .buttonText {

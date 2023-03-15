@@ -3,8 +3,8 @@
   margin: 20px auto;
   padding: 40px;
   width: 70%;
-  background-color: #db7b72;
-  color: #1f3039;
+  background-color: var(--primary-red);
+  color: var(--raisin-black);
   display: flex;
   flex-direction: column;
   gap: 60px;

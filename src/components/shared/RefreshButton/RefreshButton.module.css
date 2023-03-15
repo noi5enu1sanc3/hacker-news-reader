@@ -3,13 +3,13 @@
   min-width: 300px;
   height: 70px;
   margin: 0 auto;
-  margin-bottom: 30px;
   padding: 20px 0;
   font-family: 'Assistant', 'Courier New', Courier, monospace;
   font-size: 20px;
   cursor: pointer;
-  background-color: #db7b72;
-  color: #384965;
+  background-color: var(--background-white);
+  border: 1px solid var(--raisin-black);
+  color: var(--raisin-black);
   transition: all 0.4s ease-in-out;
 }
 
@@ -23,6 +23,7 @@
 
 .button:hover {
   opacity: 0.8;
+  box-shadow: var(--shadow-default);
 }
 
 @keyframes gradient {
@@ -44,7 +45,7 @@
 }
 
 .buttonLoading .buttonText {
-  background: linear-gradient(-90deg, #5c78a5, #384965);
+  background: linear-gradient(-90deg, var(--primary-red), var(--raisin-black));
   background-size: 300% 300%;
   background-clip: text;
   -webkit-background-clip: text;

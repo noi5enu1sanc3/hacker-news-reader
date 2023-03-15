@@ -14,7 +14,7 @@
 }
 
 .creditsText {
-  color: #d3dbda;
+  color: var(--raisin-black);
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -22,7 +22,7 @@
 }
 
 .link {
-  color: #d3dbda;
+  color: var(--raisin-black);
   font-size: 11px;
   font-weight: 500;
   letter-spacing: 1px;

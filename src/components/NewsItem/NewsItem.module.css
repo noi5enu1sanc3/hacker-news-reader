@@ -4,16 +4,15 @@ p {
 }
 
 .block {
-  background-color: #d3dbda;
   font-family: 'Assistant', 'Courier New', Courier, monospace;
-  border-radius: 5px;
   list-style: none;
   text-decoration: none;
-  transition: all 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out;
 }
 
 .block:hover {
-  box-shadow: -2px 2px 5px #db7b72;
+  outline: 1px solid var(--raisin-black);
+  box-shadow: var(--shadow-default);
 }
 
 .link {
@@ -30,7 +29,7 @@ p {
   border-radius: 50%;
   width: 15px;
   height: 15px;
-  background-color: #db7b72;
+  background-color: var(--primary-red);
 }
 
 .link:focus-visible {
@@ -42,7 +41,7 @@ p {
 }
 
 .link:visited .focusDot {
-  background-color: #556973;
+  background-color: var(--raisin-black);
 }
 
 .article {
@@ -55,7 +54,7 @@ p {
 .title {
   font-weight: 500;
   font-size: 24px;
-  color: #384965;
+  color: var(--raisin-black);
   text-align: start;
   grid-column: 1 / span 3;
   align-self: end;
@@ -84,7 +83,7 @@ p {
 }
 
 .rating {
-  color: #db7b72;
+  color: var(--primary-red);
   font-size: 14px;
   font-weight: 300;
   text-align: start;
@@ -106,7 +105,7 @@ p {
 }
 
 .commentsCountHasComments {
-  color: #db7b72;
+  color: var(--primary-red);
 }
 
 @media screen and (max-width: 700px) {

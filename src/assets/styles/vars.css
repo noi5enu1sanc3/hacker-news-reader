@@ -1,0 +1,8 @@
+:root {
+  /* colors */
+  --primary-red: #FF7477;
+  --background-white: #F0EDEE;
+  --raisin-black: #212227;
+  /* shadows */
+  --shadow-default: 5px 5px 0 var(--primary-red);
+}

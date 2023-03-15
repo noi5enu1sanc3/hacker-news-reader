@@ -1,9 +1,10 @@
+@import '../../assets/styles/vars.css';
+
 .header {
   box-sizing: border-box;
-  margin: 0;
-  height: 150px;
-  width: 100%;
-  background-image: radial-gradient(#212121 20%, transparent 20%);
+  margin: 0 17px;
+  height: 400px;
+  background-image: radial-gradient(var(--raisin-black) 20%, transparent 20%);
   background-position: 0 0, 50px 50px;
   background-size: 10px 10px;
   display: flex;
@@ -11,11 +12,24 @@
   align-items: center;
 }
 
+.box {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-white);
+}
+
 .title {
   font-family: 'Assistant', 'Courier New', Courier, monospace;
   margin: 0;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 500;
-  color: #d3dbda;
+  color: var(--raisin-black);
   letter-spacing: 5px;
 }
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 38px;
+  }}
